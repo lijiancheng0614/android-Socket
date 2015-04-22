@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Socket</string>
+
+    <string name="mainServerAddressHint">Server address(e.g. 127.0.0.1:8080)</string>
+    <string name="mainRequestHint">Request message</string>
+    <string name="mainRequestButtonText">Request</string>
+</resources>
