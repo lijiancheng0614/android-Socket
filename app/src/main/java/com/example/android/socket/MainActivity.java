@@ -70,6 +70,7 @@ public class MainActivity extends ActionBarActivity {
                 out.flush();
 
                 // receive message
+                socket.setSoTimeout(5000);
                 BufferedReader in = new BufferedReader(
                         new InputStreamReader(socket.getInputStream()));
                 String response = in.readLine();
